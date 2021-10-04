@@ -22,7 +22,7 @@ h2 {
     margin-bottom: 20px;
 }
 
- a {
+.content a {
     color: white;
     background-color: blue;
     padding: 7px 20px;
