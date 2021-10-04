@@ -23,7 +23,7 @@ h2 {
 }
 
 .content a {
-    color: white;
+    color: white !important;
     background-color: blue;
     padding: 7px 20px;
     font-size: 26px;
