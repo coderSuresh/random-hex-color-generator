@@ -1,7 +1,7 @@
-function changeBg() {
-    const body = document.getElementById('body');
-    const text = document.getElementById('title');
-
+const body = document.getElementById('body');
+const text = document.getElementById('title');
+const btn = document.querySelector(".button")
+btn.addEventListener("click", () => {
     const hexContent = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"];
     var i, colorCode = "#", random;
 
@@ -10,5 +10,4 @@ function changeBg() {
         colorCode += hexContent[random];
     }
     body.style.background = colorCode;
-    text.innerHTML = "Current background color is <br>" + colorCode;
-}
+    text.innerHTML = "Current background color is <br>" + colorCode;})
