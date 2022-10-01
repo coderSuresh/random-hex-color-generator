@@ -16,15 +16,16 @@ body {
 }
 
 h2 {
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .content a {
     color: white !important;
-    background-color: blue;
+    background-color: rgb(52, 15, 92);
     padding: 7px 20px;
     font-size: 26px;
     border-radius: 5px;
@@ -38,8 +39,15 @@ a:active {
 }
 
 .header {
-    background-color: blue;
+    background-color: rgb(1, 177, 253);
     color: white;
     border-radius: 5px;
     padding:7px 20px;
+}
+
+.color_type {
+    background-color: rgb(61, 131, 236);
+    border-radius: 10px;
+    margin:0px;    
+    color: white;
 }
