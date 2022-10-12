@@ -1,53 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap");
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    background-color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   text-align: center;
+   font-family: "Poppins", sans-serif;
+   background-color: #ffffff;
 }
 
-.content{
-    position:relative;
-
+.content {
+   position: relative;
 }
 
 h2 {
-    background-color: rgb(0, 0, 0);
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    color: white;
+   background-color: rgb(0, 0, 0);
+   padding: 20px;
+   border-radius: 10px;
+   margin-bottom: 20px;
+   color: white;
 }
 
-.content a {
-    color: white !important;
-    background-color: rgb(52, 15, 92);
-    padding: 7px 20px;
-    font-size: 26px;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
-    user-select: none;
+.content button {
+   color: white !important;
+   background-color: rgb(52, 15, 92);
+   padding: 7px 20px;
+   font-size: 26px;
+   border-radius: 5px;
+   text-decoration: none;
+   cursor: pointer;
+   user-select: none;
 }
 
 a:active {
-    opacity: 0.7;
+   opacity: 0.7;
 }
 
 .header {
-    background-color: rgb(1, 177, 253);
-    color: white;
-    border-radius: 5px;
-    padding:7px 20px;
+   background-color: rgb(1, 177, 253);
+   color: white;
+   border-radius: 5px;
+   padding: 7px 20px;
 }
 
 .color_type {
-    background-color: rgb(61, 131, 236);
-    border-radius: 10px;
-    margin:0px;    
-    color: white;
+   background-color: rgb(61, 131, 236);
+   border-radius: 10px;
+   margin: 0px;
+   color: white;
+}
+
+#copy {
+   margin-left: 1rem;
+   height: 2rem;
+   filter: brightness(100);
+}
+
+#alert {
+    font-size: 1rem;
+   display: none;
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   animation: topDown 0.5s;
+   padding: 1rem;
+}
+
+@keyframes topDown {
+   0% {
+      top: 10px;
+   }
+   100% {
+      top: 200px;
+   }
 }
